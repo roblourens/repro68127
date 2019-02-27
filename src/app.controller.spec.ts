@@ -16,7 +16,6 @@ describe('AppController', () => {
 
   describe('root', () => {
     it('should return "Hello World!"', async () => {
-      await new Promise(r => setTimeout(r, 400));
       expect(appController.getHello()).toBe('Hello World!');
       expect(appController.getHello()).toBe('Hello World!');
       expect(appController.getHello()).toBe('Hello World!');
